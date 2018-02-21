@@ -14,5 +14,6 @@ public class EurekaServiceApplication {
 
 	public static void main(String[] args) throws Exception {
 		SpringApplication.run(EurekaServiceApplication.class,args);
+		logger.info("Eureka Service is up and running...");
 	}
 }
